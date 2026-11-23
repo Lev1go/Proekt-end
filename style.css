@@ -222,3 +222,180 @@ ul {
 ██║░░░░░██║░░██║╚█████╔╝██████╔╝╚██████╔╝╚█████╔╝░░░██║░░░██████╔╝
 ╚═╝░░░░░╚═╝░░╚═╝░╚════╝░╚═════╝░░╚═════╝░░╚════╝░░░░╚═╝░░░╚═════╝░ */
 
+.products-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.products-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.products-title {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.products-item-title {
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.products-item {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.products-price {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* 
+░█████╗░██╗░░░░░██╗███████╗███╗░░██╗████████╗
+██╔══██╗██║░░░░░██║██╔════╝████╗░██║╚══██╔══╝
+██║░░╚═╝██║░░░░░██║█████╗░░██╔██╗██║░░░██║░░░
+██║░░██╗██║░░░░░██║██╔══╝░░██║╚████║░░░██║░░░
+╚█████╔╝███████╗██║███████╗██║░╚███║░░░██║░░░
+░╚════╝░╚══════╝╚═╝╚══════╝╚═╝░░╚══╝░░░╚═╝░░░ */
+
+
+.client-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7FAFF;
+    height: 374px;
+}
+
+.client-title {
+    font-size: 28px;
+    font-weight: 4400;
+}
+
+.info-name {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.client-com {
+    width: 343px;
+    height: 230px;
+    background-color: white;
+}
+
+.client-name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.client-com-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* 
+███╗░░██╗███████╗░██╗░░░░░░░██╗░██████╗██╗░░░░░███████╗████████╗████████╗███████╗██████╗░
+████╗░██║██╔════╝░██║░░██╗░░██║██╔════╝██║░░░░░██╔════╝╚══██╔══╝╚══██╔══╝██╔════╝██╔══██╗
+██╔██╗██║█████╗░░░╚██╗████╗██╔╝╚█████╗░██║░░░░░█████╗░░░░░██║░░░░░░██║░░░█████╗░░██████╔╝
+██║╚████║██╔══╝░░░░████╔═████║░░╚═══██╗██║░░░░░██╔══╝░░░░░██║░░░░░░██║░░░██╔══╝░░██╔══██╗
+██║░╚███║███████╗░░╚██╔╝░╚██╔╝░██████╔╝███████╗███████╗░░░██║░░░░░░██║░░░███████╗██║░░██║
+╚═╝░░╚══╝╚══════╝░░░╚═╝░░░╚═╝░░╚═════╝░╚══════╝╚══════╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝ */
+
+
+.newsletter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-title {
+    font-style: 28px;
+    font-weight: 400;
+}
+
+.newsletter-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.galochka {
+    width: 25px;
+    height: 25px;
+}
+
+.name {
+    width: 343px;
+    height: 50px;
+    border: 1px solid #B6B6B6;
+    margin-bottom: 20px;
+}
+
+.newsletter-button {
+    width: 224px;
+    height: 50px;
+    color: white;
+    background-color: #0A224A;
+    border: 0px;
+    margin-bottom: 30px;
+}
+
+.stul {
+    margin-bottom: 64px;
+}
+
+
+/* 
+███████╗░█████╗░░█████╗░████████╗███████╗██████╗░
+██╔════╝██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗
+█████╗░░██║░░██║██║░░██║░░░██║░░░█████╗░░██████╔╝
+██╔══╝░░██║░░██║██║░░██║░░░██║░░░██╔══╝░░██╔══██╗
+██║░░░░░╚█████╔╝╚█████╔╝░░░██║░░░███████╗██║░░██║
+╚═╝░░░░░░╚════╝░░╚════╝░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝ */
+
+.footer {
+    background-color: #0A224A;
+    height: 523px;
+    color: white;
+}
+
+.footer-list-logo {
+    position: absolute;
+    margin-left: 200px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    text-align: left;
+}
+
+.logo {
+    width: 100px;
+    height: 14px;
+    margin-top: 42px;
+    margin-bottom: 44px;
+}
+
+.footer-list {
+    text-align: left;
+}
+
+.footer-privacy {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffeedb81;
+    text-align: center;
+}
